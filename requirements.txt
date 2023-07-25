@@ -1,0 +1,6 @@
+pymongo
+python-dotenv
+web3  
+ipfshttpclient
+pyTelegramBotAPI
+telebot
