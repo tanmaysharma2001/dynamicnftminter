@@ -8,7 +8,7 @@ from web3.middleware import geth_poa_middleware
 
 def connect_contract(username):
 
-    file = open('abi/dynamicMinter.json')
+    file = open('src/abi/dynamicMinter.json')
     data = json.load(file)
     abi = data['abi']
 
@@ -80,7 +80,10 @@ def mint_token_(username):
 
 def set_ipfs_Uri(username):
 
-    uri = get_metadata_url(username)
+    # uri = get_metadata_url(username)
+    uri = ['https://ipfs.io/ipfs/QmSUKoKjBeVNWNaFgWJXr2MtuGXzBjqUGtqwBa4fDBG35k?filename=plant1.jpeg',
+     'https://ipfs.io/ipfs/QmaaahQVja6JME1aZ8WCvt2rMHfmai4jyRiHYFHLPSmunb?filename=plant2.jpeg', 
+     'https://ipfs.io/ipfs/QmeFQPkQVenjAJwi3Ut7RNJFn5XaCNCsWHkoH9vEBERDaD?filename=plant3.jpeg']
     metadata_1 = uri[-3]
     metadata_2 = uri[-2]
     metadata_3 = uri[-1]
@@ -111,3 +114,7 @@ def set_ipfs_Uri(username):
     time.sleep(4)
 
     return trx_hash
+
+set_ipfs_Uri('me_tanmay01')
+openseaurl = mint_token_('me_tanmay01')
+print(openseaurl)

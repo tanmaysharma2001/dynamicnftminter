@@ -39,6 +39,8 @@ def set_private_key(username, private_key):
 def get_user_info(username):
 
     collection = connect_collection()
+
+    print('after establishing connection')
     
     x = {"id": username}
     user_info = collection.find_one(x)

@@ -125,9 +125,7 @@ def mint_dynamic_nft(message):
 @bot.message_handler(func=aboutMe)
 def about_me(message):
 
-    text = '''Hi there. My name is Sajad.
-    \n- I am a Blockchain dev.\n\nI have created this bot that is use for mint dynamic NFTs.\n\n\n
-    - Email: SajadSolidity@gmail.com\n- Github: github.com/sajad-salehi'''
+    text = '''Hi there. My name is Tanmay'''
     
     bot.send_message(message.chat.id, text)
 
