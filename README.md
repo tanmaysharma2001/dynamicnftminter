@@ -1,7 +1,7 @@
 # Dynamic_NFT_bot
 <h3>This is a Telegram bot that allowes you to mint dynamic NFTs.</h3><h4>I have created this bot using Solidity, Infura, MongoDB, OpenZeppelin, Python and pyTelegramBotAPI.</h4>
 
-<br/><br/>
+<!-- <br/><br/>
 <p align="center">
 <img src="https://github.com/tasneem22/DynamicNFTMinterBot/blob/main/images/1.png" width="190" height="270">
 <img src="https://github.com/tasneem22/DynamicNFTMinterBot/blob/main/images/2.png" width="190" height="270">
@@ -11,7 +11,7 @@
 <p align="center">
 <img src="https://github.com/tasneem22/DynamicNFTMinterBot/blob/main/images/4.png" width="290" height="300">
 <img src="https://github.com/tasneem22/DynamicNFTMinterBot/blob/main/images/5.png" width="290" height="300">
-</p><br>
+</p><br> -->
 
 ## Prerequisites
 Please install or have installed the following:
